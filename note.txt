@@ -1,0 +1,14 @@
+#TypeORM
+-npm i @nestjs/typeorm
+-npm i typeorm 
+-npm i sqlite3
+
+-save() and remove() are supposed to be called with entities - hooks are executed
+
+#Dto validation
+-npm i class-validator
+-npm i class-transformer
+
+#interceptor-works like middleware
+-is a class that's gonna mess around with incoming requests and/or outgoing response      
+-we can apply interceptor to individual route or to the entire controller or globally(for every req and res)
